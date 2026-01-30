@@ -11,6 +11,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
