@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jahnav Rokalaboina</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -210,12 +210,12 @@
             <div class="serv-content">
                 
                 <div class="card project-card" 
-                     style="background-image: url('images/paper1.png');" 
+                     style="background-image: url('images/Exosuit.png');" 
                      onclick="openModal(this)"
-                     data-title="Exosuit Design"
+                     data-title="Knee Exosuit Design"
                      data-desc="Designed a wearable exosuit to support flexion and extension phases of the gait cycle using pneumatic actuators."
                      data-results="Achieved a 15% reduction in metabolic cost for wearers. Successfully integrated soft-actuators with rigid frame supports."
-                     data-image="images/paper1.png">
+                     data-image="images/Exosuit.png">
                     <div class="box">
                         <div class="text">Exosuit Design</div>
                         <p>Click to view details</p>
@@ -225,25 +225,109 @@
                 <div class="card project-card" 
                      style="background-image: url('images/paper1.png');"
                      onclick="openModal(this)"
-                     data-title="RL Gait Analysis"
+                     data-title="Reinforcement Learning based Exosuit Controller"
                      data-desc="Created a Reinforcement Learning environment in Python to analyze knee angles and optimize movement patterns."
                      data-results="The agent learned optimal actuation policies within 100,000 timesteps. Validated against human gait datasets."
                      data-image="images/paper1.png">
                     <div class="box">
-                        <div class="text">RL Gait Analysis</div>
+                        <div class="text">RL Exosuit Controller</div>
                         <p>Click to view details</p>
                     </div>
                 </div>
 
                 <div class="card project-card" 
-                     style="background-image: url('images/paper1.png');"
+                     style="background-image: url('images/FoldRob.png');"
                      onclick="openModal(this)"
-                     data-title="TCP Systems"
-                     data-desc="Built a robust local communication system between PC clients for real-time data logging and actuator control."
-                     data-results="Reduced packet loss to <0.1% and achieved 1ms latency on local networks."
-                     data-image="images/paper1.png">
+                     data-title="Bipedal Robot "
+                     data-desc="This project's scope is to replicate two legs of a bird, such as an ostrich, and study primary walking gait, using a foldable five-bar mechanism."
+                     data-results="Simulated the robot using MuJoCo to understand and optimize the kinematics and dynamics of the robot, implemented joint angles control using Arduino controller to mimic the walking gait and performed experimental analysis to validate the simulation study."
+                     data-image="images/FoldRob.png">
                     <div class="box">
-                        <div class="text">Machine Learning</div>
+                        <div class="text">Bipedal Robot </div>
+                        <p>Click to view details</p>
+                    </div>
+                </div>
+
+                <div class="card project-card" 
+                     style="background-image: url('images/ModelPredCont.png');"
+                     onclick="openModal(this)"
+                     data-title="Model Predictive Control of a Soft Manipulator"
+                     data-desc="The study discusses the fundamental principles of MPC and its adaptability to soft robot manipulators, considering factors like kinematics, dynamics, and actuation. In this project, we present an approach to control the elongation of a soft robotic manipulator using MPC and use MATLAB to simulate the controller and implement the controller in hardware to validate the results."
+                     data-results="The simulation results of the Model Predictive Control (MPC) applied to the Linear Parameter-Varying (LPV) system demonstrate the controller's adeptness at managing a system with dynamic complexities."
+                     data-image="images/ModelPredCont.png">
+                    <div class="box">
+                        <div class="text">Model Predictive Control</div>
+                        <p>Click to view details</p>
+                    </div>
+                </div>
+
+                <div class="card project-card" 
+                     style="background-image: url('images/AirportSim.png');"
+                     onclick="openModal(this)"
+                     data-title="Airport Security Checkpoint Simulation and Optimization"
+                     data-desc="This research project outlines a detailed strategy for optimizing airport security checkpoint operations by employing advanced simulation modeling techniques. Using advanced simulation software, the simulation model mirrors the intricate dynamics of an airport security checkpoint, incorporating principles from important concepts such as queueing theory and discrete event simulation. Key components of the model include the stochastic passenger arrival process, variability in security screening procedures, queue dynamics, staffing, and evaluation of performance metrics."
+                     data-results="The analysis of the Simio simulation model for airport security screening and the accompanying data, including Time in System (TIS) trends, reveals critical insights into airport operations. The model provides a comprehensive view of the screening process, outlining the various stages and potential bottlenecks that passengers and baggage might encounter."
+                     data-image="images/AirportSim.png">
+                    <div class="box">
+                        <div class="text">Airport Security Checkpoint Simulation and Optimization</div>
+                        <p>Click to view details</p>
+                    </div>
+                </div>
+
+                <div class="card project-card" 
+                     style="background-image: url('images/ML.png');"
+                     onclick="openModal(this)"
+                     data-title="Heart Failure Clinical Records Analysis"
+                     data-desc="This project aims to find the Heart failure prediction accuracy using the Heart Failure Clinical Records dataset. In this process, we used various machine-learning techniques to study the data and have a comprehensive analysis of the Heart Failure prediction. Upon conducting a comparative study of the results from various approaches we were able to understand that the results and comparative study showed that the current work improved the previous accuracy score in predicting heart disease."
+                     data-results="The integration of the machine learning model presented in this study with fine tuning of hyperparameters using GridSearchCV proved to be more efficient in predicting Heart failures using various factors of a Patients' medical record."
+                     data-image="images/ML.png">
+                    <div class="box">
+                        <div class="text">Heart Failure Clinical Records Analysis</div>
+                        <p>Click to view details</p>
+                    </div>
+                </div>
+                
+                <div class="card project-card" 
+                     style="background-image: url('images/RoboticArm.jpg');"
+                     onclick="openModal(this)"
+                     data-title="Robotic Arm"
+                     data-desc="This project aims to implement smartphone control, trajectory planning, and pick-and-place operations using a 6-DOF robotic arm. The robotic arm is controlled via an Arduino microcontroller, which receives commands from a smartphone application through Bluetooth connectivity. The trajectory planning algorithm ensures smooth and efficient movement of the robotic arm to perform pick-and-place tasks accurately."
+                     data-results="The robotic arm successfully executed pick-and-place operations with high precision, demonstrating the effectiveness of smartphone control and trajectory planning. The system achieved a response time of less than 200 milliseconds, ensuring real-time control and operation."
+                     data-image="images/RoboticArm.jpg">
+                    <div class="box">
+                        <div class="text">Robotic Arm</div>
+                        <p>Click to view details</p>
+                    </div>
+                </div>
+
+                <div class="card project-card" 
+                     style="background-image: url('images/DroneControl.png');"
+                     onclick="openModal(this)"
+                     data-title="Drone Control"
+                     data-desc="DJI Tello drone can be configured and operated using python to send and receive data. This is made possible by using djitellopy library which enables the drone in implementation of all tello commands, easily retrieve a video stream, receive and parse state packets. The Tello SDK connects to the drone through a Wi-Fi UDP port, allowing the control of it with text commands. As a part of this, six mini projects were finished which deal with sending and receiving data from drone and its control. They are,
+                            1. Autonomous face tracking drone
+                            2. Object tracking drone
+                            3. Controlling drone with body postures
+                            4. Controlling drone with hand gestures
+                            5. YELLO (YOLO + TELLO)
+                            6. Collision avoidance drone"
+                     data-results="The drone successfully finished all the six mini tasks with efficient performance in tracking and control. The autonomous face tracking and object tracking drones demonstrated accurate following capabilities, while the body posture and hand gesture controls provided intuitive and responsive operation. The YELLO project effectively combined object detection with drone control, and the collision avoidance system enhanced safety during flight."
+                     data-image="images/DroneControl.png">
+                    <div class="box">
+                        <div class="text">Drone Control</div>
+                        <p>Click to view details</p>
+                    </div>
+                </div>
+
+                <div class="card project-card" 
+                     style="background-image: url('images/PropControl.png');"
+                     onclick="openModal(this)"
+                     data-title="Control of a Soft Actuator using Proportional Valve"
+                     data-desc="In this project, a pneumatic proportional pressure valve’s mechatronic design and functionality are carefully analyzed, a dynamic model of valve is modeled to simulate its dynamic behavior in the time and frequency domains for several conditions. This is experimentally investigated using a soft inflatable actuator, finally, the experimental and simulated results are compared to validate this model for a desired output pressure, which can be used as a general approach for modeling any pneumatic proportional pressure valve."
+                     data-results="Two different desired pressure signals are used for the system to track it, step and sinusoidal. The experimental and simulation results are compared to validate this model for a desired output pressure, which can be used as a general approach for modeling any pneumatic proportional pressure valve."
+                     data-image="images/PropControl.png">
+                    <div class="box">
+                        <div class="text">Soft Actuator Control</div>
                         <p>Click to view details</p>
                     </div>
                 </div>
